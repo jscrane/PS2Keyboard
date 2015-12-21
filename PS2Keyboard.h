@@ -29,7 +29,6 @@
 #if defined(ENERGIA)
 #include "Energia.h"
 #define PROGMEM
-#define pgm_read_byte(x) *(x)
 #define CORE_INT_EVERY_PIN
 #elif defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h" // for attachInterrupt, FALLING
